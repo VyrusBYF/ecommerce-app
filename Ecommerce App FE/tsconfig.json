@@ -22,5 +22,5 @@
   },
   "buildOnSave": false,
   "compileOnSave": false,
-  "include": ["src"]
+  "include": ["src", "tsconfig.json"]
 }
