@@ -1,9 +1,12 @@
+import { Footer } from "./Footer";
+import { Header } from "./Header";
 import "./_meta/css/App.css";
 
-function App() {
+function App(): JSX.Element {
   return (
     <div className="App">
-      <p>Gaza</p>
+      <Header />
+      <Footer />
     </div>
   );
 }
